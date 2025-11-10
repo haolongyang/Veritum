@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Veritum/static/css/main.28a56694.css",
+    "main.js": "/Veritum/static/js/main.59e29c42.js",
+    "static/js/453.1eeec817.chunk.js": "/Veritum/static/js/453.1eeec817.chunk.js",
+    "index.html": "/Veritum/index.html",
+    "main.28a56694.css.map": "/Veritum/static/css/main.28a56694.css.map",
+    "main.59e29c42.js.map": "/Veritum/static/js/main.59e29c42.js.map",
+    "453.1eeec817.chunk.js.map": "/Veritum/static/js/453.1eeec817.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28a56694.css",
+    "static/js/main.59e29c42.js"
+  ]
+}
