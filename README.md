@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Veritum
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a website for Veritum, a company that provides various services.
 
 ## Available Scripts
 
