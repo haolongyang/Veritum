@@ -1,0 +1,53 @@
+.home-page .hero-banner {
+  background-color: #004080; /* Dark Blue */
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.home-page .hero-banner h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.home-page .overview, .home-page .quick-links, .home-page .strengths {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.home-page .quick-links {
+  background-color: #f8f9fa; /* Light Gray */
+}
+
+.home-page .links-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.home-page .quick-link {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 250px;
+  text-decoration: none;
+  color: #333;
+  transition: box-shadow 0.3s ease;
+}
+
+.home-page .quick-link:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.home-page .strengths ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+.home-page .strengths li {
+  margin-bottom: 10px;
+}

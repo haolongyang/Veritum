@@ -1,0 +1,52 @@
+.success-stories-page .success-header {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+}
+
+.success-stories-page .achievements-summary {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.success-stories-page .gallery {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.success-stories-page .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.success-stories-page .gallery-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.success-stories-page .gallery-item:hover {
+  transform: translateY(-5px);
+}
+
+.success-stories-page .gallery-item img {
+  width: 100%;
+  display: block;
+}
+
+.success-stories-page .gallery-item .caption {
+  padding: 15px;
+  background-color: white;
+}
+
+.success-stories-page .gallery-item .caption p {
+  margin: 0;
+}

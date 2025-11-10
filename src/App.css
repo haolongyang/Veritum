@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Navbar Styles */
+nav {
+  background-color: #004080; /* Dark Blue */
+  padding: 15px 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.lang-toggle {
+  background-color: #0059b3;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.lang-toggle:hover {
+  background-color: white;
+  color: #004080;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f8f9fa; /* Light Gray */
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+}
